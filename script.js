@@ -35,7 +35,7 @@ function init() {
     const loader = new GLTFLoader();
 
     let obj;
-    loader.load('../Vulcano.gltf',
+    loader.load('https://github.com/iGreenapple/diplomka/blob/main/Vulcano.gltf',
         function (gltf) {
             obj = gltf.scene;
             scene.add(gltf.scene);
